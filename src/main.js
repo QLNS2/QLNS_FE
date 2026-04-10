@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import Default from './layout/wrapper/index.vue'
+import Candi from './layout/wrapper/index_candi.vue'
 import Blank from './layout/wrapper/index_blank.vue'
 import Toaster from "@meforma/vue-toaster";
 const app = createApp(App)
@@ -11,4 +12,5 @@ app.use(Toaster, {
 });
 app.component("default-layout", Default);
 app.component("blank-layout", Blank);
+app.component("candi-layout", Candi);
 app.mount("#app")

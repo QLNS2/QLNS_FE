@@ -63,7 +63,7 @@
                         </a>
                         <ul v-show="isSidebarOpen && openDropdowns.tuyendung" class="submenu">
                             <li>
-                                <router-link to="/admin/vi-tri-tuyen-dung" class="submenu-link">
+                                <router-link to="/admin/tuyen-dung" class="submenu-link">
                                     <i class="bx bx-right-arrow-alt"></i> Vị Trí Tuyển Dụng
                                 </router-link>
                             </li>
